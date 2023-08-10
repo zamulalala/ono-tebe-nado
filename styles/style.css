@@ -51,9 +51,10 @@
 
 .address {
   line-height: 133%;
+  max-width: 240px;
 }
 
-.address address {
+.address p {
   font-style: normal;
 }
 
@@ -180,27 +181,21 @@
   height: 100%;
   padding: 52px 40px;
   color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -236,7 +231,7 @@
   width: 240px;
   height: 240px;
   margin-right: 14px;
-  border-radius: 100%;
+  border-radius: 50%;
   padding: 63px 46px;
   background-color: black;
 }
@@ -253,10 +248,12 @@
 
 .about__text {
   font-size: 20px;
+  margin-bottom: 30px;
+  line-height: normal;
 }
 
-.about__text.start {
-  margin-bottom: 30px;
+.about__text:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
