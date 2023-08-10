@@ -50,8 +50,8 @@
 }
 
 .address {
-  line-height: 133%;
   max-width: 240px;
+  line-height: 133%;
 }
 
 .address p {
@@ -247,8 +247,8 @@
 }
 
 .about__text {
-  font-size: 20px;
   margin-bottom: 30px;
+  font-size: 20px;
   line-height: normal;
 }
 
