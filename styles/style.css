@@ -51,11 +51,8 @@
 
 .address {
   max-width: 240px;
-  line-height: 133%;
-}
-
-.address p {
   font-style: normal;
+  line-height: 133%;
 }
 
 .address a {
@@ -98,8 +95,13 @@
   gap: 20px;
   font-weight: bold;
   font-size: 100px;
+  line-height: 100%;
   letter-spacing: 30px;
   text-transform: uppercase;
+}
+
+.aligned-text {
+  line-height: 115%;
 }
 
 .aligned-text_center {
@@ -108,14 +110,6 @@
 
 .aligned-text_right {
   text-align: right;
-}
-
-.aligned-text_lh_115 {
-  line-height: 115%;
-}
-
-.aligned-text_lh_100 {
-  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -168,6 +162,7 @@
 
 .lots__card-list-item {
   flex-grow: 1;
+  width: 430px;
 }
 
 .card-link {
@@ -180,7 +175,6 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
-  max-width: 430px;
   height: 100%;
   padding: 52px 40px;
   color: #fff;
